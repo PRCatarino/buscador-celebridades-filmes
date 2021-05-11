@@ -1,0 +1,55 @@
+body{
+   background-color: #F0F0F0;
+    /* background-image: url("/imgs/fundo-login.jpg"); */
+}
+
+.form{
+    padding-top: 144px;
+    margin:auto;
+    width: 384px;
+    flex-direction: column;
+}
+.card{
+    box-shadow: 1px 1px 5px #CCC;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px; 
+}
+.card-top{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.ingLogin{
+    border-radius: 50px;
+    width: 81px;
+    height: 81px;
+    box-shadow: 0px 0px 5px #CCC;
+}
+.div-grupo{
+    flex-direction: column;
+}
+.div-grupo > label{
+    width: 100%;
+    color: rgb(61, 61, 61);
+    display:block;
+}
+
+.input-digite{
+    border-radius: 5px;
+    width: 100%;
+    outline: 0;
+    height: 22px;
+    padding: 5px;
+    border-color: lightgray;
+}
+
+.div-grupo > button{
+    width: 104%;
+    margin-top: 13px;
+    background-color: #A0A6AD;
+    height: 35px;
+    border-radius: 5px;
+    border-color: lightgray;
+}
+

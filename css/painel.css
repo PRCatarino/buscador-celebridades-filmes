@@ -1,0 +1,88 @@
+header{
+    width:100%;
+    border-bottom: 2px solid #EDEDED !important;
+}
+.container{
+    display:flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 7px 2px 7px
+}
+
+.container > a{
+    margin-left: 10px;
+}
+
+.nomeDoUsuario{
+ margin-left: 273px;
+ margin-top: 3px;
+ padding: 2px;
+}
+
+.fotoPerfil{
+    border-radius: 50px;
+    width: 23px;
+    height: 23px;
+    box-shadow: 0px 0px 5px #ccc;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.filtros{
+    margin: 0 auto;
+    width: 239px;
+    margin-bottom:50px;
+}
+.content{
+    width: 100%;
+}
+
+.dados{
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.item{
+    margin: 16px;
+}
+.imagemDaBusca{
+    border-radius: 5px;
+    width: 100px;
+    
+}
+
+@keyframes transicao{
+    from{
+        background-position-x:0%;
+    }
+    to{
+        background-position-x: -500px;
+    }
+    
+}
+
+.gradienteIcoHome {
+     /* background: linear-gradient(to right, #029ddf, #68efaf, #ff01d9, #6702ff, #029ddf); */
+    background-image:url(/imgs/0_u4zrxW2TUwmZ9VzH.png);
+    animation:transicao 0.8s steps(10);
+    width: 50px;
+    height: 72px;
+    background-repeat:no-repeat;
+    float:left;
+    position: absolute;
+}
+
+
+
+@media screen and (min-width:1000px) {
+    .container{
+        width: 1000px;
+        margin:0 auto;
+
+    }
+    .nomeDoUsuario{
+        margin-left: 871px;
+        margin-top: 3px;
+    }
+}

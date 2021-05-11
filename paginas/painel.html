@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Painel</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="/css/painel.css"/>
+        <link rel="icon" type="imagem/png"  href="/imgs/Logo .png"/>
+        <link rel="stylesheet" href="/css/reset.css"/>
+    </head>
+<body>
+    <header>
+        <div class="container">
+            <a  href="/">
+            <svg  aria-label="Página inicial" class="_8-yf5 " fill="#262626" height="22" viewBox="0 0 48 48" width="22"><path d="M45.5 48H30.1c-.8 0-1.5-.7-1.5-1.5V34.2c0-2.6-2.1-4.6-4.6-4.6s-4.6 2.1-4.6 4.6v12.3c0 .8-.7 1.5-1.5 1.5H2.5
+                7-1.5-1.5V23c0-.4.2-.8.4-1.1L22.9.4c.6-.6 1.6-.6 2.1 0l21.5 21.5c.3.3.4.7.4 1.1v23.5c.1.8-.6 1.5-1.4 1.5z"></path></svg>
+            </a>
+            <span class="nomeDoUsuario"></span>
+            <img class="fotoPerfil" src="/imgs/Perfil.png">
+        </div>
+    </header> 
+    <div class="container">
+        <div class="content">
+            <div class="gradienteIcoHome">           
+            </div>
+            <div class="filtros">
+                <label>Filmes</label>
+                <input type="radio" checked value="f" name="tipoBusca"/>
+                <label>Artista</label>
+                <input type="radio" value="a" name="tipoBusca"/>
+                <input type="text" name="filtroBusca" id="filtroBusca"/>
+                <button onclick="busca()">Buscar</button>
+            </div>
+            <div class="dados"> 
+                
+            </div>
+            
+        </div>
+    </div>
+    <script src="/js/painel.js"></script>
+</body>
+</html>
