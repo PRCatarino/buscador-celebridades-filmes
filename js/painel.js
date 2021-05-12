@@ -21,14 +21,22 @@ function busca(){
             
             for(let i in dados){                  // pode ser feita assim tbm for(let i=0; i<dados.leght;i++)
                 console.log(dados[i])
+                let item = null;
+
+                if(tipoBusca =="a"){
+                    item = dados[i].person;
+                }else{
+                    item = dados[i].show;
+                }
+
                 let imagem = "/imgs/semImagem.png" 
-                let nome = dados[i].show.name
+                let nome = item.name
                 if(nome.length > 15){
                     nome = nome.substring(0, 15)
                 }
 
-                if(dados[i].show.image){
-                    imagem = dados[i].show.image.medium;
+                if(item.image){
+                    imagem = item.image.medium;
                 }
 
                 document.querySelector(".dados").innerHTML += 

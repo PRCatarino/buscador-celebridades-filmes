@@ -24,18 +24,26 @@
             </div>
             <div class="filtros">
                 <label>Filmes</label>
-                <input type="radio" checked value="f" name="tipoBusca"/>
+                <input type="radio" checked value="f" name="tipoBusca" class="tipoBusca"/>
                 <label>Artista</label>
-                <input type="radio" value="a" name="tipoBusca"/>
-                <input type="text" name="filtroBusca" id="filtroBusca"/>
+                <input type="radio" value="a" name="tipoBusca" />
+                <input type="text" name="filtroBusca" id="filtroBusca" class="tipoBusca" required placeholder="Titulo/Artista"/>
                 <button onclick="busca()">Buscar</button>
             </div>
             <div class="dados"> 
                 
             </div>
-            
+            <di class="modal-verMais" id="verMais-container">
+                <div class="modal">
+                    <form>
+                        <h3>sumario</h3>
+                        <h3>Filmes feitos</h3>
+                    </form>
+                </div>
+            </di>
         </div>
     </div>
     <script src="/js/painel.js"></script>
+    
+    </html>
 </body>
-</html>
