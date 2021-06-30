@@ -6,6 +6,9 @@
         <link rel="stylesheet" href="/css/painel.css"/>
         <link rel="icon" type="imagem/png"  href="/imgs/Logo .png"/>
         <link rel="stylesheet" href="/css/reset.css"/>
+        <link rel="stylesheet" href="/css/popUp.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
     </head>
 <body>
     <header>
@@ -30,19 +33,25 @@
                 <input type="text" name="filtroBusca" id="filtroBusca" class="tipoBusca" required placeholder="Titulo/Artista"/>
                 <button onclick="busca()">Buscar</button>
             </div>
-            <div class="dados"> 
-                
+            <div class="dados"></div>
+    </div>
+    
+    <div id="popUp" class="popUp-container">
+        <div class="caixaPopUp">
+            <button class="fecharPopUp" onclick="fecharPopUp()">X</button>
+            <h3 class="nomeDoFilmeArtista">
+            </h3>
+            <div class="image"> 
+
             </div>
-            <di class="modal-verMais" id="verMais-container">
-                <div class="modal">
-                    <form>
-                        <h3>sumario</h3>
-                        <h3>Filmes feitos</h3>
-                    </form>
+            <div id="infoPopUp" class="info">
+                <div class="sumario">
+
                 </div>
-            </di>
+            </div>          
         </div>
     </div>
+    
     <script src="/js/painel.js"></script>
     
     </html>

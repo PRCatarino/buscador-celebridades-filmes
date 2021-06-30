@@ -1,0 +1,65 @@
+.popUp-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0,.4);
+    position: fixed;
+    top:0px;
+    left:0px;
+    z-index:2000;
+    display:none;
+    justify-content:center;
+    align-items: center;
+}
+
+.caixaPopUp{
+    background: white;
+    width: 60%;
+    min-width: 300px;
+    padding:48px;
+    border:10px solid white;
+    border-radius:2px ;
+    padding:20px;
+    position:relative;
+    text-align: center;
+}
+.fecharPopUp{
+    position: absolute;
+    top:0px;
+    right:0px;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    border:4px solid white;
+}
+
+.info{
+    overflow:auto; 
+    width: 100%;
+    height: 50px;  
+    padding:10px 10px 17px;
+}
+
+.info::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+.info::-webkit-scrollbar{
+    width: 12px;
+	background-color: #F5F5F5;
+}
+
+.info::-webkit-scrollbar-thumb{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+.NomePincipal{
+    margin-top:0px;
+   
+}
+.image{
+    width: 100%;
+    min-height: 50px;
+    background-image: none;
+    text-align:center;   
+}
